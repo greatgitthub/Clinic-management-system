@@ -1,0 +1,26 @@
+info:
+  name: Doctor
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:5000/api/auth/register
+  body:
+    type: json
+    data: |-
+      {
+        "fullName": "Dr. Sarah Ahmed",
+        "email": "sarah@clinic.com",
+        "password": "doctor123",
+        "role": "doctor",
+        "specialization": "General Medicine",
+        "phone": "0509876543"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
