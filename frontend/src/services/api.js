@@ -45,3 +45,9 @@ export const payBill = (id, data) => API.put(`/billing/${id}/pay`, data);
 export const getPrescriptionsByPatient = (patientId) =>
   API.get(`/prescriptions/patient/${patientId}`);
 export const createPrescription = (data) => API.post("/prescriptions", data);
+// AI Service
+export const predictDisease = (data) =>
+  axios.post('http://localhost:5001/predict', data);
+
+export const getAnalytics = () =>
+  axios.get('http://localhost:5001/analytics');

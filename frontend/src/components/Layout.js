@@ -19,6 +19,9 @@ import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
 import PaymentIcon from "@mui/icons-material/Payment";
 import LogoutIcon from "@mui/icons-material/Logout";
 import { useAuth } from "../context/AuthContext";
+import PsychologyIcon from "@mui/icons-material/Psychology";
+import BarChartIcon from "@mui/icons-material/BarChart";
+
 
 const DRAWER_WIDTH = 240;
 
@@ -28,6 +31,8 @@ const navItems = [
   { label: "Appointments", path: "/appointments", icon: <EventIcon /> },
   { label: "Doctors", path: "/doctors", icon: <LocalHospitalIcon /> },
   { label: "Billing", path: "/billing", icon: <PaymentIcon /> },
+  { label: "AI Predict", path: "/ai", icon: <PsychologyIcon /> },
+  { label: "Analytics", path: "/analytics", icon: <BarChartIcon /> },
 ];
 
 export default function Layout() {

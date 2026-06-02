@@ -10,6 +10,8 @@ import Patients from "./pages/patients/Patients";
 import Appointments from './pages/appointments/Appointments';
 import Billing from "./pages/billing/Billing";
 import Doctors from "./pages/doctors/Doctors";
+import AIPrediction from "./pages/ai/AIPrediction";
+import Analytics from "./pages/dashboard/Analytics";
 
 // Protected route wrapper
 const ProtectedRoute = ({ children }) => {
@@ -38,6 +40,8 @@ function AppRoutes() {
         <Route path="billing" element={<Billing />} />
       </Route>
       <Route path="*" element={<Navigate to="/dashboard" />} />
+      <Route path="ai" element={<AIPrediction />} />
+      <Route path="analytics" element={<Analytics />} />
     </Routes>
   );
 }

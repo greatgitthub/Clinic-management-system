@@ -1,0 +1,33 @@
+fever,cough,headache,fatigue,nausea,chest_pain,shortness_breath,back_pain,sore_throat,runny_nose,age,disease
+1,1,1,1,0,0,0,0,1,1,25,Influenza
+1,1,0,1,0,0,0,0,1,1,30,Influenza
+1,0,1,1,0,0,0,0,0,0,45,Influenza
+1,1,1,1,0,0,0,0,0,0,60,Influenza
+0,1,0,1,0,0,1,0,1,1,22,Common Cold
+0,1,0,0,0,0,0,0,1,1,35,Common Cold
+0,0,0,1,0,0,0,0,1,1,28,Common Cold
+0,1,0,0,0,0,0,0,0,1,40,Common Cold
+0,0,1,1,1,0,0,0,0,0,50,Migraine
+0,0,1,1,0,0,0,0,0,0,33,Migraine
+0,0,1,0,1,0,0,0,0,0,42,Migraine
+0,0,1,1,0,0,0,0,0,0,27,Migraine
+1,0,0,1,1,0,0,0,0,0,55,Typhoid
+1,0,1,1,1,0,0,0,0,0,48,Typhoid
+1,0,0,1,1,0,0,1,0,0,62,Typhoid
+1,0,1,1,0,0,0,0,0,0,38,Typhoid
+0,0,0,1,0,1,1,0,0,0,65,Heart Disease
+0,0,0,1,1,1,1,0,0,0,70,Heart Disease
+0,0,0,1,0,1,1,0,0,0,58,Heart Disease
+0,0,1,1,0,1,0,0,0,0,72,Heart Disease
+0,0,0,1,0,0,0,1,0,0,45,Back Pain Syndrome
+0,0,0,1,0,0,0,1,0,0,52,Back Pain Syndrome
+0,0,1,1,0,0,0,1,0,0,38,Back Pain Syndrome
+0,0,0,0,0,0,0,1,0,0,60,Back Pain Syndrome
+1,0,0,1,1,0,0,0,0,0,30,Malaria
+1,0,1,1,1,0,0,0,0,0,25,Malaria
+1,0,0,1,1,0,0,0,0,0,44,Malaria
+1,1,1,1,1,0,0,0,0,0,35,Malaria
+0,0,0,1,1,0,0,0,0,0,40,Gastritis
+0,0,0,0,1,0,0,1,0,0,33,Gastritis
+0,0,0,1,1,0,0,1,0,0,55,Gastritis
+0,0,0,0,1,0,0,0,0,0,28,Gastritis
